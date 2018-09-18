@@ -1,8 +1,8 @@
 # 批量抓取网站图片并保存在本地
 
-目标网站：[妹子图](http://www.mzitu.com/)
-项目功能：批量下载该网站的相册
-姊妹项目：[批量爬取并下载头条视频](https://github.com/tibaiwan/spider-video)
+目标网站：[妹子图](http://www.mzitu.com/)（点进去别忘了回来~~）  
+项目功能：批量下载该网站的相册  
+姊妹项目：[批量爬取并下载头条视频](https://github.com/tibaiwan/spider-video)  
 
 ## 启动项目
 
@@ -19,7 +19,7 @@ npm start
 // 配置相关
 module.exports =  {
   originPath: 'http://www.mzitu.com', // 请求地址
-  savePath: 'E:/meizi', // 存放图片路径
+  savePath: 'E:/meizi', // 存放路径
   maxPage: 20 // 可爬取的最大页码
 }
 ```

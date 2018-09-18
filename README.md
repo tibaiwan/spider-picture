@@ -62,6 +62,19 @@ $('#pins li a').children().each((index, item) => {
 })
 ```
 
+> fs.createWriteStream: 保存图片到本地
+
+```js
+await axios({
+  method: 'get',
+  url: imageSrc,
+  responseType: 'stream',
+  headers
+}).then(function(response) {
+  response.data.pipe(fs.createWriteStream(fileName))
+})
+```
+
 ## 爬取结果截图
 
 <img src="./static/meizi.png" width="650">

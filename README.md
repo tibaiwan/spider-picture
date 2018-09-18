@@ -1,6 +1,8 @@
 # 批量抓取网站图片并保存在本地
 
 目标网站：[妹子图](http://www.mzitu.com/)
+项目功能：批量下载该网站的相册
+姊妹项目：[批量爬取并下载头条视频](https://github.com/tibaiwan/spider-video)
 
 ## 启动项目
 
